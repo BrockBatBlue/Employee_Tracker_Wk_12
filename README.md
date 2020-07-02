@@ -7,9 +7,7 @@ The employer is able to:
   * View departments, roles, employees
 
   * Update employee roles
-
-Bonus points if you're able to:
-
+  
   * Update employee managers
 
   * Delete departments, roles, and employees
