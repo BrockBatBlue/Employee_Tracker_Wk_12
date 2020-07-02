@@ -10,14 +10,8 @@ console.log(figlet.textSync('Employee Tracker', {
 }));
 
 function questions(firsttime = false) {
-    let message
-    if (firsttime) {
-        message = "Welcome to Employee Tracker, how can I help you today?"
-    } else {
-        message = "What else would you like help with today?"
-    }
     inquirer.prompt({
-        message: message,
+        message: firsttime ? "Welcome to Employee Tracker, how can I help you today?" : "What else would you like help with today?",
         type: "list",
         name: "choice",
         choices: [
